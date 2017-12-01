@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DeleteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/DeleteTitle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DeleteTitle"
+        android:ems="10"
+        android:id="@+id/DeleteName"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:hint="@string/Name"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DeleteName"
+        android:id="@+id/ConfirmDelete"
+        android:layout_centerHorizontal="true"
+        android:onClick="DeleteMedicine"
+        android:text="@string/Delete"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ConfirmDelete"
+        android:id="@+id/CancelDelete"
+        android:layout_centerHorizontal="true"
+        android:onClick="CancelDeletion"
+        android:text="@string/Cancel"/>
+
+</RelativeLayout>

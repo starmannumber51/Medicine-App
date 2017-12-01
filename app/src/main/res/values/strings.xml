@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Medicine App</string>
+    <string name="Title"></string>
+    <string name="Monday">M</string>
+    <string name="Tuesday">T</string>
+    <string name="Wednesday">W</string>
+    <string name="Thursday">Th</string>
+    <string name="Friday">F</string>
+    <string name="Saturday">S</string>
+    <string name="Sunday">S</string>
+    <string name="AddTitle">Add medicine</string>
+    <string name="Name">Name</string>
+    <string name="Schedule">What hour</string>
+    <string name="Doses">Doses</string>
+    <string name="Cancel">Cancel</string>
+    <string name="DeleteTitle">Delete Medicine</string>
+    <string name="Delete">Delete</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AddTitle"
+        android:id="@+id/AddText"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameInput"
+        android:ems="10"
+        android:layout_below="@+id/AddText"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Name"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oftenInput"
+        android:ems="10"
+        android:layout_below="@+id/nameInput"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Schedule"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dosesInput"
+        android:ems="10"
+        android:layout_below="@+id/oftenInput"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Doses"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oftenInput"
+        android:layout_marginTop="50dp"
+        android:id="@+id/AddMed"
+        android:layout_centerHorizontal="true"
+        android:onClick="AddMedicine"
+        android:text="@string/AddTitle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddMed"
+        android:id="@+id/CancelAdd"
+        android:onClick="CancelAddition"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Cancel"
+        />
+
+
+</RelativeLayout>

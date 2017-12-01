@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_38241558c0e6ba8eb93305cc9da646c68184ea4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\6e048c81d1a67c038fc8174982753856e720c25a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d0621ad0cdbff30ddf1c9c4525cffb0a642f7a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\c9f9f2d32518a0a04e4f5598ea14f4372e07421e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a48247531b89253738223244c10014496a227668\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_06a9d4b1822da86090143d256cd807f7ebce2f29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\22f28299240486c82cf27ebd475f7c1e296a82e7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e251c04a4cf2e9a975f57513255e31bc0e08fc1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\18fb9ffae1989f142c9cab8f74bc5901d1f7429d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b0541090fde5f7ece8dc1a013e91b5950f7d3e84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Apps\MedicineApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa900595600d3b54aca7ca6bd92bdc4d962da8e5">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_abc7324b4cbbc9431266de48d422d02615c62255\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\ef5e491be309ee4bef30ce62bd26fa4ea64d87ae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06cfd2d46089c1770074a7a2a86fefc01b3513d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\Apps\MedicineApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_baff08b123c0c1f4fa59f6dc1d1ab5b7a83c916c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\033b440f41f705bcbe9a37ef53403b8efa6cfc03\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa4226cf279efef7c0dacefc6469ffb4ecf4fbd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\89a95f1812496c9a6ea2aa322a7af2a253bcab21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_773f887f71012b6c97de1be27d6f663e76b60d3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\f8522a7ada3ff363c04c6eb8666be70d3a7d2a64\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7cd57bfd6e34afb77395d738246466e501ff45e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\d897aba7570c8dde1c37a24521938a6fa4f8ca48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_988a6432c841adfede93559c309e84822af00aa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John Davis Jr\.android\build-cache\5754d54d7f6ba0c264911932e671984bdbb385b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7dae2ca172c54a52c54de988d9c9706eb9fbcc4\classes.dex" />
+    </item>
+
+</items>

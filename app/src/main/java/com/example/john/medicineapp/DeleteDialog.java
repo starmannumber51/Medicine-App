@@ -13,7 +13,7 @@ import android.widget.EditText;
 public class DeleteDialog extends Activity {
 
     Intent data;
-    EditText Name, Hour, Doses;
+    EditText Name;
 
     @Override
     public void onCreate (Bundle savedInstanceState) {
@@ -43,6 +43,7 @@ public class DeleteDialog extends Activity {
             data.putExtra("Name", Name.getText().toString());
             goodFinish();
         }
+        setResult(RESULT_CANCELED, data);
         finish();
     }
 }

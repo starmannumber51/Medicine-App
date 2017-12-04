@@ -13,6 +13,8 @@
     <string name="Schedule">What hour</string>
     <string name="Doses">Doses</string>
     <string name="Cancel">Cancel</string>
+    <string name="DoseTitle">Add Doses</string>
     <string name="DeleteTitle">Delete Medicine</string>
     <string name="Delete">Delete</string>
+    <string name="notify">notify1</string>
 </resources>

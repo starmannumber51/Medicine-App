@@ -37,10 +37,21 @@
         android:layout_centerHorizontal="true"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="DOSE"
+        android:id="@+id/DoseButton"
+        android:text="@string/DoseTitle"
+        android:layout_below="@+id/DeleteButton"
+        android:layout_centerHorizontal="true"
+        />
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/DeleteButton"
+        android:layout_below="@+id/DoseButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
         android:layout_marginStart="30dp"

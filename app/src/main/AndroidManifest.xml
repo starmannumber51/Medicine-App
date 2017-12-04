@@ -9,29 +9,58 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddDialog"
-            android:label="@string/app_name">
+        <activity
+            android:name=".AddDialog"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
             <intent-filter>
-                <action android:name="android.intent.action.ADD"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.ADD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DeleteDialog"
+        <activity
+            android:name=".DeleteDialog"
             android:label="@string/app_name"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
             >
         </activity>
+        <activity
+            android:name=".AddDoses"
+            android:label="@string/app_name">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.DOSE" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Time"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.NOT"/>
+                </intent-filter>
+            </service>
     </application>
 
 </manifest>

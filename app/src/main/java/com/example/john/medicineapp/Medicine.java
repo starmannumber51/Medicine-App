@@ -1,10 +1,12 @@
 package com.example.john.medicineapp;
 
+import java.io.Serializable;
+
 /**
  * Created by john on 11/19/17.
  */
 
-public class Medicine {
+public class Medicine implements Serializable {
     private String Name;
     private int hour;
     private int numberOfDoses;

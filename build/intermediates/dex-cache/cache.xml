@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="aa900595600d3b54aca7ca6bd92bdc4d962da8e5">
+        sha1="7a95171b7062dae098860475dfcddf7c369fc343">
         <dex dex="C:\Android\Apps\MedicineApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_abc7324b4cbbc9431266de48d422d02615c62255\classes.dex" />
     </item>
     <item

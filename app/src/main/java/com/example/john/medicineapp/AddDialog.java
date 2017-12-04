@@ -27,9 +27,13 @@ public class AddDialog extends Activity {
 
     public void AddMedicine(View view) {
         if (!(Name.getText().toString().isEmpty() || Hour.getText().toString().isEmpty() || Doses.getText().toString().isEmpty())) {
-             data.putExtra("Name", Name.getText().toString());
-             data.putExtra("Hour", Integer.valueOf(Hour.getText().toString()));
-             data.putExtra("Doses", Integer.valueOf(Doses.getText().toString()));
+            data.putExtra("Name", Name.getText().toString());
+            if(Integer.valueOf(Hour.getText().toString()) < 24 && Integer.valueOf(Hour.getText().toString()) >= 0)
+                data.putExtra("Hour", Integer.valueOf(Hour.getText().toString()));
+            else data.putExtra("Hour", 0);
+            if (Integer.valueOf(Doses.getText().toString()) > 0)
+                data.putExtra("Doses", Integer.valueOf(Doses.getText().toString()));
+            else data.putExtra("Doses", 0);
             finish();
         }
         finish();

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DoseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/DoseTitle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DoseTitle"
+        android:ems="10"
+        android:id="@+id/DoseName"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:hint="@string/Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DoseName"
+        android:ems="10"
+        android:id="@+id/DoseNumber"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:hint="@string/Doses"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DoseNumber"
+        android:id="@+id/ConfirmDoses"
+        android:layout_centerHorizontal="true"
+        android:onClick="addDoses"
+        android:text="@string/DoseTitle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ConfirmDoses"
+        android:id="@+id/CancelDelete"
+        android:layout_centerHorizontal="true"
+        android:onClick="CancelDoses"
+        android:text="@string/Cancel"/>
+
+
+
+
+</RelativeLayout>
